@@ -139,3 +139,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // If using encoder type 2, uncomment this
 // #define ENCODERS_B_REVERSE
 
+#ifdef CIRQUE_ENABLE
+  // cirque trackpad config
+  #define CIRQUE_PINNACLE_ADDR 0x2A
+  #define POINTING_DEVICE_ROTATION_90
+  #define CIRQUE_PINNACLE_TAP_ENABLE
+  #define POINTING_DEVICE_TASK_THROTTLE_MS 5
+  #define I2C1_CLOCK_SPEED  400000
+  #define I2C1_DUTY_CYCLE FAST_DUTY_CYCLE_2
+#endif
