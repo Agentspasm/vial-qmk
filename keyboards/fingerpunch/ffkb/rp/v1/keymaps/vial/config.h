@@ -8,6 +8,9 @@
                                KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, \
                                KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, \
                                KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, \
+                               KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, \
+                               KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, \
+                               KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, \
                                KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS }
 #endif
 
@@ -17,4 +20,4 @@
 #endif
 
 // For via/vial only
-#define DYNAMIC_KEYMAP_LAYER_COUNT 5
+#define DYNAMIC_KEYMAP_LAYER_COUNT 8
